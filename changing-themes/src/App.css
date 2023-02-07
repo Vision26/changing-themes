@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  height: 10%;
+  font-size: 25px;
+}
+
+.a {
+  background-color: darkgrey;
+}
+
+.b {
+  background-color: dimgray;
+}
+
+.c {
+  background-color: lightgray;
+}
+
+main {
+  padding: 100px;
+  background-color: aquamarine;
+}
+
+footer {
+  padding: 30px;
+  background-color:navajowhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:10%;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.light-theme {
+  background-color: whitesmoke;
+  color: #333333;
+}
